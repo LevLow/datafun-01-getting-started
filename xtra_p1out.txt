@@ -1,0 +1,102 @@
+(base) PS C:\Users\levil\Documents\datafun-01-getting-started> & C:/Users/levil/AppData/Local/Programs/Python/Python310/python.exe c:/Users/levil/Documents/datafun-01-getting-started/xtra_p1.py
+
+Hello, I'm Jeeves, your gamebot.
+Let's play an animal guessing game!
+There are 3 animals: wolf, eagle, snake (a Python of course).
+The wolf scares the eagle.
+The eagle grabs the snake.
+The snake bites the wolf.
+I'll pick one and you pick one and we'll see who wins.
+
+Choose one: Wolf, Eagle, or Snake.eagle
+
+You said eagle.
+I said wolf.
+
+My wolf scared your eagle. I win!
+(base) PS C:\Users\levil\Documents\datafun-01-getting-started> & C:/Users/levil/AppData/Local/Programs/Python/Python310/python.exe -m pip install -U black
+Collecting black
+  Downloading black-22.12.0-cp310-cp310-win_amd64.whl (1.2 MB)
+     |████████████████████████████████| 1.2 MB 1.7 MB/s
+Collecting tomli>=1.1.0
+  Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+Collecting platformdirs>=2
+  Downloading platformdirs-2.6.2-py3-none-any.whl (14 kB)
+Collecting click>=8.0.0
+  Downloading click-8.1.3-py3-none-any.whl (96 kB)
+     |████████████████████████████████| 96 kB ...
+Collecting pathspec>=0.9.0
+  Downloading pathspec-0.10.3-py3-none-any.whl (29 kB)
+Collecting mypy-extensions>=0.4.3
+  Downloading mypy_extensions-0.4.3-py2.py3-none-any.whl (4.5 kB)
+Collecting colorama
+  Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Installing collected packages: colorama, tomli, platformdirs, pathspec, mypy-extensions, click, black
+Successfully installed black-22.12.0 click-8.1.3 colorama-0.4.6 mypy-extensions-0.4.3 pathspec-0.10.3 platformdirs-2.6.2 tomli-2.0.1
+WARNING: You are using pip version 21.2.4; however, version 22.3.1 is available.
+You should consider upgrading via the 'C:\Users\levil\AppData\Local\Programs\Python\Python310\python.exe -m pip install --upgrade pip' command.
+(base) PS C:\Users\levil\Documents\datafun-01-getting-started> & C:/Users/levil/AppData/Local/Programs/Python/Python310/python.exe c:/Users/levil/Documents/datafun-01-getting-started/xtra_p1.py
+
+Hello, I'm Jeeves, your gamebot.
+Let's play an animal guessing game!
+There are 3 animals: wolf, eagle, snake (a Python of course).
+The wolf scares the eagle.
+The eagle grabs the snake.
+The snake bites the wolf.
+I'll pick one and you pick one and we'll see who wins.
+
+Choose one: wolf, eagle, or snake.snake
+
+You said snake.
+I said snake.
+
+We tied!
+(base) PS C:\Users\levil\Documents\datafun-01-getting-started> & C:/Users/levil/AppData/Local/Programs/Python/Python310/python.exe c:/Users/levil/Documents/datafun-01-getting-started/xtra_p1.py
+
+Hello, I'm Jeeves, your gamebot.
+Let's play an animal guessing game!
+There are 3 animals: wolf, eagle, snake (a Python of course).
+The wolf scares the eagle.
+The eagle grabs the snake.
+The snake bites the wolf.
+I'll pick one and you pick one and we'll see who wins.
+
+Choose one: wolf, eagle, or snake.eagle
+
+You said eagle.
+I said snake.
+
+Your eagle grabbed my snake! You win!
+(base) PS C:\Users\levil\Documents\datafun-01-getting-started> & C:/Users/levil/AppData/Local/Programs/Python/Python310/python.exe c:/Users/levil/Documents/datafun-01-getting-started/xtra_p1.py
+
+Hello, I'm Jeeves, your gamebot.
+Let's play an animal guessing game!
+There are 3 animals: wolf, eagle, snake (a Python of course).
+The wolf scares the eagle.
+The eagle grabs the snake.
+The snake bites the wolf.
+I'll pick one and you pick one and we'll see who wins.
+
+Choose one: wolf, eagle, or snake.wolf
+
+You said wolf.
+I said snake.
+
+My snake bit your wolf! I win!
+(base) PS C:\Users\levil\Documents\datafun-01-getting-started> & C:/Users/levil/AppData/Local/Programs/Python/Python310/python.exe c:/Users/levil/Documents/datafun-01-getting-started/xtra_p1.py
+
+Hello, I'm Jeeves, your gamebot.
+Let's play an animal guessing game!
+There are 3 animals: wolf, eagle, snake (a Python of course).
+The wolf scares the eagle.
+The eagle grabs the snake.
+The snake bites the wolf.
+I'll pick one and you pick one and we'll see who wins.
+
+Choose one: wolf, eagle, or snake.wolf
+
+You said wolf.
+I said snake.
+
+My snake bit your wolf! I win!
+(base) PS C:\Users\levil\Documents\datafun-01-getting-started>

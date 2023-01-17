@@ -1,1 +1,100 @@
-# Paste the output from a sample run here.
+(base) PS C:\Users\levil\Documents\datafun-01-getting-started> & C:/Users/levil/AppData/Local/Programs/Python/Python310/python.exe c:/Users/levil/Documents/datafun-01-getting-started/user_script.py
+
+Welcome to Python Art Emporium!
+
+What would you like to be called during this transaction? Frank
+
+Greetings  Frank, it is a pleasure meeting you!
+
+We are inerested in knowing a little about your experince with art. Please answer the questions below.
+
+How many pieces of art do you own? 10
+
+How many art museums have you been to? 3
+
+How many pieces of art would you like to buy? 5
+
+I am going to do some math with the nubmers you gave me. Just go with it, Frank. Thanks.
+
+The sum is 18.0.
+The average is 6.0.
+The product is 150.0.
+The smallest is 3.0.
+The largest is 10.0.
+The range is 7.0.
+There, that wasn't so bad, was it?
+
+You are quite the collector!
+Would you like to read a comic about art? (y/n) y
+(base) PS C:\Users\levil\Documents\datafun-01-getting-started> & C:/Users/levil/AppData/Local/Programs/Python/Python310/python.exe c:/Users/levil/Documents/datafun-01-getting-started/user_script.py
+
+Welcome to Python Art Emporium!
+
+What would you like to be called during this transaction? Bob
+
+Greetings Bob, it is a pleasure meeting you!
+
+We are inerested in knowing a little about your experince with art. Please answer the questions below.
+
+How old are you? 25
+How many pieces of art do you own? 2
+
+How many art museums have you been to? 7
+
+How many pieces of art would you like to buy? 1
+
+I am going to do some math with the nubmers you gave me. Just go with it, Bob. Thanks.
+
+The sum is 10.0.
+<class 'float'>
+The average is 3.33.
+<class 'float'>
+The product is 14.0.
+<class 'float'>
+The smallest is 1.0.
+<class 'float'>
+The largest is 7.0.
+<class 'float'>
+The range is 6.0.
+<class 'float'>
+There, that wasn't so bad, was it?
+
+You are quite the travler!
+Would you like to read a comic about art? (y/n) y
+(base) PS C:\Users\levil\Documents\datafun-01-getting-started> & C:/Users/levil/AppData/Local/Programs/Python/Python310/python.exe c:/Users/levil/Documents/datafun-01-getting-started/user_script.py
+
+Welcome to Python Art Emporium!
+
+What would you like to be called during this transaction? bob
+
+Greetings bob, it is a pleasure meeting you!
+
+We are inerested in knowing a little about your experince with art. Please answer the questions below.
+
+How old are you?12
+How many pieces of art do you own? 2
+
+How many art museums have you been to? 4
+
+How many pieces of art would you like to buy? 5
+
+I am going to do some math and coding stuff      with the nubmers you gave me. Just go with it, bob. Thanks.
+
+The sum is 11.0.
+<class 'float'>
+The average is 3.67.
+<class 'float'>
+The product is 40.0.
+<class 'float'>
+The smallest is 2.0.
+<class 'float'>
+The largest is 5.0.
+<class 'float'>
+The range is 3.0.
+<class 'float'>
+There, that wasn't so bad, was it?
+
+You will have a huge collection one day!
+Would you like to read a comic about art? (y/n) n
+Lighten up bob we are trying to have fun here.
+(base) PS C:\Users\levil\Documents\datafun-01-getting-started>
