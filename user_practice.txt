@@ -1,21 +1,205 @@
-# Paste your interactive Python practice sesssion here
-# See course site for details.
-#
-# Windows                 Mac
-# CTRL A = select all = Command A
-# CTRL C = copy =       Command C
-# CTRL V = paste =      Command V
-
-# It'll look something like this only longer:
-
-Python 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0] on linux
+(base) C:\Users\levil>python
+Python 3.9.13 (main, Aug 25 2022, 23:51:50) [MSC v.1916 64 bit (AMD64)] :: Anaconda, Inc. on win32
 Type "help", "copyright", "credits" or "license" for more information.
 >>> 2+2
 4
->>> print("hello")
-hello
->>> a = 5
->>> b = 3
->>> print( min (a, b))
-3
->>> 
+>>> x=7
+>>> y=3
+>>> x+y
+10
+>>> total=x+y
+>>> total
+10
+>>> # always add spaces between characters to make code more readable
+>>> type(x)
+<class 'int'>
+>>> type(10.5)
+<class 'float'>
+>>> total = 10.8 + 12.2 + 0.2
+>>> total
+23.2
+>>> 7 * 4
+28
+>>> 2 ** 10
+1024
+>>> 9 ** (1/2)
+3.0
+>>> 25 ** (1/2)
+5.0
+>>> 7 / 4
+1.75
+>>> 7//4
+1
+>>> 3 // 5
+0
+>>> 14 // 7
+2
+>>> -13 / 4
+-3.25
+>>> -13 // 4
+-4
+>>> 123 / 0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>> z + 7
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'z' is not defined
+>>> 17 % 5
+2
+>>> #why would we want to know the remainder but not the quotient
+>>> 7.5 % 3.5
+0.5
+>>> # book says to determine whether one number is divisible by another so we could write something that says, if there is any remainder, then
+ we know it isn't evenly divisible. Interesting.
+>>> 10 * (5 + 3)
+80
+>>> 10 * 5 + 3
+53
+>>> # Python follows the order of operations from left to right except
+for exponents which group from right to left.
+>>> print('Welcome to Python!')
+Welcome to Python!
+>>> print("Welcome to Python!")
+Welcome to Python!
+>>> print('Welcome', 'to', 'Python!')
+Welcome to Python!
+>>> print('Welcome\nto\n\nPython!')
+Welcome
+to
+
+Python!
+>>> print ('this is a longer string, so we \
+... : split it over two lines')
+this is a longer string, so we : split it over two lines
+>>> >>> print ('this is a longer string, so we \
+  File "<stdin>", line 1
+    >>> print ('this is a longer string, so we \
+    ^
+SyntaxError: invalid syntax
+>>> ... : split it over two lines')
+  File "<stdin>", line 1
+    ... : split it over two lines')
+    ^
+SyntaxError: illegal target for annotation
+>>> (this is a longer string, so we \
+  File "<stdin>", line 1
+    (this is a longer string, so we \
+               ^
+SyntaxError: invalid syntax
+>>> print(this is a longer string, so we \
+  File "<stdin>", line 1
+    print(this is a longer string, so we \
+                    ^
+SyntaxError: invalid syntax
+>>> print('this')
+this
+>>> print('this is a longer string, so we \
+  File "<stdin>", line 1
+    print('this is a longer string, so we \
+                                            ^
+SyntaxError: EOL while scanning string literal
+>>> print('this is a longer string, so we \
+  File "<stdin>", line 1
+    print('this is a longer string, so we \
+                                            ^
+SyntaxError: EOL while scanning string literal
+>>> print('this is a longer string, so we
+  File "<stdin>", line 1
+    print('this is a longer string, so we
+                                          ^
+SyntaxError: EOL while scanning string literal
+>>> print('long string \
+  File "<stdin>", line 1
+    print('long string \
+                         ^
+SyntaxError: EOL while scanning string literal
+>>> print ('This is a longer string, so we \
+  File "<stdin>", line 1
+    print ('This is a longer string, so we \
+                                             ^
+SyntaxError: EOL while scanning string literal
+>>> print('this is a longer string, so we \
+... split it over two lines')
+this is a longer string, so we split it over two lines
+>>> # I figured out that a space after the continuation character results in an EOL (end of line) error.
+>>> print('Sum is' , 7 + 3)
+Sum is 10
+>>> print('int(5.2)' , 'truncates 5.2 to' , int(5.2))
+int(5.2) truncates 5.2 to 5
+>>> print('Display "hi" in quotes')
+Display "hi" in quotes
+>>> print('Display 'hi' in quotes')
+  File "<stdin>", line 1
+    print('Display 'hi' in quotes')
+                    ^
+SyntaxError: invalid syntax
+>>> print('Display \'hi\' in quotes')
+Display 'hi' in quotes
+>>> print("Display the name O'Brien")
+Display the name O'Brien
+>>> print("Display \"hi\" in quotes")
+Display "hi" in quotes
+>>> print("""Display "hi" and 'bye' in quotes""")
+Display "hi" and 'bye' in quotes
+>>> Triple_quotes_string = """This is a triple-quoted
+... string that spans twon lines"""
+>>> print(Triple_quotes_string)
+This is a triple-quoted
+string that spans twon lines
+>>> Triple_quotes_string
+'This is a triple-quoted\nstring that spans twon lines'
+>>> #So printing the line is how it will display to the user or the out
+put but just calling the line doesn't do the spacing.
+>>> print("""This is a lenghty
+... multiline string containing
+... a few lines \
+... of text""")
+This is a lenghty
+multiline string containing
+a few lines of text
+>>> name = input("what's your name?")
+what's your name?Paul
+>>> name
+'Paul'
+>>> Print(name)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Print' is not defined
+>>> print(name)
+Paul
+>>> name = input("what's your name?")
+what's your name? 'Paul'
+>>> Name
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Name' is not defined
+>>> name
+" 'Paul'"
+>>> print(name)
+ 'Paul'
+>>> value1 = input('Enter first number: ')
+Enter first number: 7
+>>> value2 = input('Enter second number: ')
+Enter second number: 3
+>>> value1 + value2
+'73'
+>>> value = input('Enter an integer: ')
+Enter an integer: 7
+>>> value = int(value)
+>>> value
+7
+>>> another_value = int(input('Enter another integer: '))
+Enter another integer: 13
+>>> another_value
+13
+>>> value + another_value
+20
+>>> bad_value = int(input('Enter another integer: '))
+Enter another integer: hello
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'hello'
+>>> int(10.5)
+10
